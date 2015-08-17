@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Deckard Bold';
+  src: url('Deckard-Bold.eot'); /* IE9 Compat Modes */
+  src: url('Deckard-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Deckard-Bold.woff') format('woff'), /* Modern Browsers */
+       url('Deckard-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Deckard-Bold.svg#3682e6ea26a3c7e02bad5d07e55fe7de') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+
+@font-face {
+  font-family: 'Deckard Regular';
+  src: url('Deckard-Regular.eot'); /* IE9 Compat Modes */
+  src: url('Deckard-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Deckard-Regular.woff') format('woff'), /* Modern Browsers */
+       url('Deckard-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Deckard-Regular.svg#7178886c7b3e3599bc0c37b57ae9954d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+
+@font-face {
+    font-family: 'deckardmedium_evan';
+    src: url('deckard-medium-webfont.eot');
+    src: url('deckard-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('deckard-medium-webfont.woff2') format('woff2'),
+         url('deckard-medium-webfont.woff') format('woff'),
+         url('deckard-medium-webfont.ttf') format('truetype'),
+         url('deckard-medium-webfont.svg#deckardmedium_evan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

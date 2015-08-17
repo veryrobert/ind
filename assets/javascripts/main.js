@@ -1,10 +1,10 @@
 $('.carousel').carousel();
 
-$(function() {
-    $('[data-toggle="tooltip"]').tooltip({
-    	html: true
-    })
-})
+// $(function() {
+//     $('[data-toggle="tooltip"]').tooltip({
+//     	html: true
+//     })
+// })
 
 $(function() {
     $('[data-toggle="popover"]').popover({
@@ -30,15 +30,21 @@ $('nav a.scroll').click(function(){
 
 
 
-$('.panel-heading').each(function(){
 
-	$(this).on('click', function(){
-		// $('.panel-heading').removelass('open');
-		$(this).addClass('open');
 
-	});
+
+$('.panel').each(function(){
+
+    $(this).on('click', function(){  
+      var justClicked = '#' + $(this).attr('id');
+
+        // $('html, body').animate({
+        // scrollTop: $(justClicked).offset().top
+        // }, 500);
+    });
 
 });
+
 
 
 $(document).ready(function(){    
@@ -68,12 +74,8 @@ if (document.getElementById('map')) {
         ]
     ];
     
-    $('.accordion-toggle').click(function() {
-        $("html, body").animate({
-            scrollTop: $('#accordion').offset().top - 140
-        }, 600);
-        console.log('boom');
-    });
+ 
+
 
     var icon = 'assets/marker.svg';
     var map = new google.maps.Map(document.getElementById('map'), {
