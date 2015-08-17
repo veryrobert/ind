@@ -1,0 +1,132 @@
+
+/* Reusable classes */
+
+
+
+/* Display Properties
+============================================================================= */
+
+.inline {
+	display: inline;
+	li {
+		display: inline;
+	}	
+}
+
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+
+
+/* List Formatting
+============================================================================= */
+
+.no-list-style {
+	list-style: none;
+
+	li {
+		list-style: none;
+	}	
+}
+
+
+/* Background Colours
+============================================================================= */
+
+.bg-white {
+	background-color: white;
+}
+
+
+
+
+/* Spacing ultilities
+============================================================================= */
+
+.full-width {
+	padding: 60px 0 80px 0;
+	@media (max-width: 992px) {
+		padding: 30px 0px 60px 0;
+	}
+}
+
+.section-intro {
+	padding-bottom: 60px; 
+	@media (max-width: 992px) {
+		padding-bottom: 30px;
+	}
+}
+
+/* Mobile
+============================================================================= */
+@media (max-width: 768px) {
+
+	.hide-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 640px) {
+	.hide-small-mobile {
+		display: none;
+	}
+}
+
+/* Remove Padding or Margin
+============================================================================= */
+
+.no-padding-bottom {
+	padding-bottom: 0px;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0px;
+	.jumbotron & {
+		margin-bottom: 0px;
+	}
+}
+
+
+
+
+/* Page positioning
+============================================================================= */
+
+.page {
+  position: relative;
+  z-index: 500;
+  background: #253143;
+}
+
+
+/* Min-height
+============================================================================= */
+
+.min-height-lg {
+	height: 600px;
+	@media (max-width: 640px) {
+			height: 460px;
+	}
+}
+
+.fuzzy-font {
+	-webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+.text-center-small {
+	text-align: center;
+}
+
+}
+
+
+.strong {
+	font-weight: 700px;
+}
